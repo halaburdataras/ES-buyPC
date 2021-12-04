@@ -1,0 +1,21 @@
+.answerBtn {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.answerBtn:hover {
+  opacity: 1;
+}
+.answerBtn + .answerBtn {
+  margin-left: 15px;
+}
+
+.question_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
