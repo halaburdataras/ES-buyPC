@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Conclusion from "./Conclusion";
 import Question from "./Question";
 
-export default () => {
+const Wrapper = () => {
   const [model, setModel] = useState("");
   const [purpose, setPurpose] = useState("");
   const [price, setPrice] = useState("");
@@ -283,3 +283,5 @@ export default () => {
 
   return <Conclusion title={findPC()} />;
 };
+
+export default Wrapper;

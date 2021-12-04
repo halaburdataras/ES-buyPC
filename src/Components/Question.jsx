@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-export default ({ title, question, answers, setAnswer }) => {
+const Question = ({ title, question, answers, setAnswer }) => {
   const answersBlock = answers.map((el) => (
     <button onClick={() => setAnswer(el.meaning)} className="answerBtn">
       {el.title}
@@ -15,3 +15,5 @@ export default ({ title, question, answers, setAnswer }) => {
     </div>
   );
 };
+
+export default Question;
