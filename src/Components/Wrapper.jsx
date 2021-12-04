@@ -44,7 +44,7 @@ const Wrapper = () => {
     else answer += `WD Black 512GB(1k UAH), `;
 
     answer += `Monitor: `;
-    if (monitor === "good") answer += `Phillips 27" 2k monitor E-Line(7k UAH) `;
+    if (monitor === "cool") answer += `Phillips 27" 2k monitor E-Line(7k UAH) `;
     else answer += `Lenovo Sink Vision 23.8" FullHD(4.5k UAH), `;
 
     return answer;
